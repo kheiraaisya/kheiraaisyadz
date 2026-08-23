@@ -1,0 +1,503 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>kheidz</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="styleportof.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+
+
+</head>
+
+<body>
+    <!-- sticky top biar navbar ngikut saat di scroll -->
+    <nav class="navbar navbar-expand-lg sticky-top navbar">
+        <div class="container">
+            <a class="navbar-brand fw-bold" href="#home"> <span class="text-secondary">Kheidz</span> <span
+                    class="text-primary">Portofolio</span></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <!-- ms-auto untuk memisahkan navbar dari kanan  -->
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" aria-current="page" href="#home"
+                            style="color: var(--primary-color) !important;">Beranda</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about" style="color: var(--primary-color) !important;">Tentang</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#achievement"
+                            style="color: var(--primary-color) !important;">Prestasi</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact" style="color: var(--primary-color) !important;">Kontak</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- text-dark dikasih di wadah yang paling atas agar teks diwabwahnya warnanya hitam semua.
+py-5 untuk mengatur padding sumbu 'y' atau atas bawah
+border-bottom untuk memberikan outline/garis dibagian bawah header  -->
+
+    <header id="home" class="bg-white text-dark min-vh-100 py-5 border-bottom rounded-0 d-flex align-items-center">
+        <div class="container py-4 my-auto">
+            <div class="row align-items-center g-5">
+                <div class="col-md-6 text-center text-md-start">
+                    <h1 class="display-4 fw-bold mb-3 text-primary" data-aos="fade-up" data-aos-duration="800">Halo,
+                        saya <span class="text-secondary" data-aos="fade-up" data-aos-duration="800">Kheira Aisya
+                            Dzikri</span>
+                    </h1>
+                    <p class="lead text-muted mb-4 mb-md-5" style="font-weight: 400;" data-aos="fade-up"
+                        data-aos-duration="800" data-aos-delay="300">Mahasiswa Informatika Universitas Negeri
+                        Semarang</p>
+                    <div class="d-grid gap-3 d-sm-flex justify-content-sm-center justify-content-md-start">
+                        <a href="https://drive.google.com/uc?export=download&id=1DE5Mqqjo21-HB3rln4HemG2Ieu5lCgCL"
+                            class="btn btn-primary btn-lg px-4 px-md-5 me-md-2 fw-bolder py-3" data-aos="fade-up"
+                            data-aos-duration="600" data-aos-delay="400" id="downloadBtn">Unduh Resume</a>
+
+                        <a href="#contact"
+                            class="btn btn-outline-secondary border border-2 btn-lg px-4 px-md-5 fw-bolder py-3"
+                            data-aos="fade-up" data-aos-duration="600" data-aos-delay="500">Hubungi
+                            Saya</a>
+                    </div>
+                </div>
+                <div class="col-md-6 text-center" data-aos="fade-up" data-aos-duration="800" data-aos-delay="200">
+                    <img src="photo/Desain tanpa judul_20260714_133704_0000.png" class="img-fluid hero-img" alt="Kheira Aisya Dzikri">
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <section>
+        <div class="marquee-container shadow-sm">
+            <div class="marquee-content d-flex align-items-center">
+                <div class="marquee-item px-3 px-md-4 py-2 text-run-1 mx-2 rounded-5">Basic HTML 5</div>
+                <div class="marquee-item px-3 px-md-4 py-2 text-run-2 mx-2 rounded-5">Basic CSS</div>
+                <div class="marquee-item px-3 px-md-4 py-2 text-run-3 mx-2 rounded-5">Basic PYTHON</div>
+                <div class="marquee-item px-3 px-md-4 py-2 text-run-4 mx-2 rounded-5">Scientific Writing</div>
+                <div class="marquee-item px-3 px-md-4 py-2 text-run-5 mx-2 rounded-5">Microsoft Office</div>
+                <div class="marquee-item px-3 px-md-4 py-2 text-run-6 mx-2 rounded-5">Research & Analysis</div>
+                <div class="marquee-item px-3 px-md-4 py-2 text-run-4 mx-2 rounded-5">Bootstrap 5</div>
+                <div class="marquee-item px-3 px-md-4 py-2 text-run-1 mx-2 rounded-5">Basic HTML 5</div>
+                <div class="marquee-item px-3 px-md-4 py-2 text-run-2 mx-2 rounded-5">Basic CSS</div>
+                <div class="marquee-item px-3 px-md-4 py-2 text-run-3 mx-2 rounded-5">Basic PYTHON</div>
+                <div class="marquee-item px-3 px-md-4 py-2 text-run-4 mx-2 rounded-5">Scientific Writing</div>
+                <div class="marquee-item px-3 px-md-4 py-2 text-run-5 mx-2 rounded-5">Microsoft Office</div>
+                <div class="marquee-item px-3 px-md-4 py-2 text-run-6 mx-2 rounded-5">Research & Analysis</div>
+                <div class="marquee-item px-3 px-md-4 py-2 text-run-4 mx-2 rounded-5">Bootstrap 5</div>
+            </div>
+        </div>
+    </section>
+
+    <section id="about" class="py-5 bg-light">
+        <div class="container py-4">
+            <div class="row justify-content-center">
+                <div class="col-md-8 text-center">
+                    <h2 class="fw-bold mb-3 text-secondary" data-aos="fade-up" data-aos-duration="800">Tentang Saya</h2>
+                    <div class="border-bottom border-3 border-secondary mx-auto mb-4" style="max-width: 80%; width: 220px;"
+                        data-aos="fade-up" data-aos-duration="800"></div>
+                    <p class="lead text-primary fw-normal" data-aos="fade-up" data-aos-duration="800">
+                        Mahasiswa Informatika yang telah meraih berbagai prestasi tingkat nasional di Bidang riset yang kini sedang mengembangkan kemampuan di Bidang Informatika.
+                    </p>
+                </div>
+            </div>
+
+            <!-- Card Row 1 -->
+            <div class="row mt-4 g-3 text-center" data-aos="fade-up" data-aos-duration="600">
+                <div class="col-md-8">
+                    <div class="card about-card text-center rounded-4 py-4 px-3 d-flex flex-column justify-content-between h-100"
+                        style="background-color: rgba(255, 192, 203, 0.404); border: none;">
+                        <div>
+                            <i class="bi bi-filetype-html text-secondary" style="font-size: 3rem"></i>
+                            <h2 class="card-title text-primary fw-bold text-center mb-2">Basic HTML</h2>
+                            <p class="card-text-tentang text-center text-muted mb-0">Membangun struktur dasar halaman web menggunakan elemen semantik.</p>
+                        </div>
+                        <div class="text-end">
+                            <a href="https://github.com/kheiraaisya" aria-label="GitHub">
+                                <i class="bi bi-arrow-right text-secondary fs-2 px-3"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card about-card text-center rounded-4 py-4 px-3 d-flex flex-column justify-content-center h-100"
+                        style="background-color: rgba(245, 245, 220, 0.651); border: none;">
+                        <i class="bi bi-microsoft text-secondary" style="font-size: 3rem"></i>
+                        <h3 class="card-title text-primary fw-bold text-center mb-2">Microsoft Office</h3>
+                        <p class="card-text-tentang text-center text-muted mb-0">Penguasaan aplikasi esensial untuk produktivitas kerja</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Card Row 2 -->
+            <div class="row g-3 text-center mt-1" data-aos="fade-up" data-aos-duration="600">
+                <div class="col-md-4">
+                    <div class="card about-card text-center rounded-4 py-4 px-3 d-flex flex-column justify-content-center h-100"
+                        style="background-color: rgba(245, 245, 220, 0.651); border: none;">
+                        <i class="bi bi-css text-secondary" style="font-size: 3rem"></i>
+                        <h3 class="card-title text-primary fw-bold text-center mb-2">Basic CSS</h3>
+                        <p class="card-text-tentang text-center text-muted mb-0">Mengatur tampilan, tata letak, dan responsivitas dasar halaman web.</p>
+                    </div>
+                </div>
+                <div class="col-md-8">
+                    <div class="card about-card text-center rounded-4 py-4 px-3 d-flex flex-column justify-content-between h-100"
+                        style="background-color: rgba(255, 192, 203, 0.404); border: none;">
+                        <div>
+                            <i class="bi bi-pencil-square text-secondary" style="font-size: 3rem"></i>
+                            <h2 class="card-title text-primary fw-bold text-center mb-2">Scientific Writing</h2>
+                            <p class="card-text-tentang text-center text-muted mb-0">Kemampuan untuk menyusun karya tulis akademis atau sains secara jelas, logis, ringkas, dan berbasis bukti.</p>
+                        </div>
+                        <div class="text-end">
+                            <a href="#achievement" aria-label="Prestasi">
+                                <i class="bi bi-arrow-right text-secondary fs-2 px-3"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="stats" class="section-spacing  rounded-0 bg-white">
+        <div class="container">
+            <div class="row text-center g-5">
+                <div class="col-md-4" data-aos="fade-up" data-aos-delay="100">
+                    <h1 class="stat-number fw-bold">6+</h1>
+                    <p class="text-gray fw-medium">Penghargaan Nasional</p>
+                </div>
+                <div class="col-md-4" data-aos="fade-up" data-aos-delay="200">
+                    <h1 class="stat-number fw-bold">3</h1>
+                    <p class="text-gray fw-medium">Bahasa Pemrograman</p>
+                </div>
+                <div class="col-md-4" data-aos="fade-up" data-aos-delay="300">
+                    <h1 class="stat-number fw-bold">100%</h1>
+                    <p class="text-gray fw-medium">Siap Berkolaborasi</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="achievement" class="text-primary py-5 bg-light position-relative">
+        <div class="container py-4">
+            <div class="row justify-content-center">
+                <div class="col-md-8 text-center mb-5">
+                    <h2 class="fw-bold mb-3" style="color: var(--tersier-color);" data-aos="fade-up"
+                        data-aos-duration="800">Prestasi Saya
+                    </h2>
+                    <div class="border-bottom border-3 border-secondary mx-auto mb-4" style="width: 256px;"
+                        data-aos="fade-up" data-aos-duration="800" data-aos-delay="200"></div>
+                    <p class="lead text-primary fw-normal" data-aos="fade-up" data-aos-duration="800">
+                        Mahasiswa Informatika yang telah meraih berbagai prestasi tingkat nasional di bidang riset dan inovasi yang kini sedang mengembangkan kemampuan di bidang informatika
+                    </p>
+                </div>
+            </div>
+
+            <!-- Stacked Cards Container -->
+            <div class="stacked-cards-container">
+                
+                <!-- Card 1 -->
+                <div class="stacked-card-item" data-aos="fade-up" data-aos-duration="800">
+                    <div class="stacked-card rounded-4 p-3 p-md-4">
+                        <div class="row g-4 align-items-center">
+                            <div class="col-md-5">
+                                <div class="stacked-card-img-box">
+                                    <a href="detail1.html">
+                                        <img src="photo/JUARA 1 ESSAY UNAIR TEKNIK LINGKUNGAN_page-0001.jpg" alt="Juara 1 Essay UNAIR" class="stacked-card-img">
+                                    </a>
+                                    <span class="achievement-badge badge-gold position-absolute top-0 start-0 m-3 px-3 py-2 rounded-pill fw-semibold">
+                                        <i class="bi bi-trophy-fill me-1"></i> Juara 1
+                                    </span>
+                                </div>
+                            </div>
+                            <div class="col-md-7 d-flex flex-column justify-content-between">
+                                <div>
+                                    <span class="text-secondary fw-semibold small text-uppercase tracking-wide">Tingkat Nasional • Essay</span>
+                                    <h4 class="fw-bold text-primary mt-2 mb-2">Juara 1 Essay Teknik Lingkungan</h4>
+                                    <p class="text-muted mb-3">Universitas Airlangga (UNAIR) - Kompetisi karya tulis ilmiah & essay nasional di bidang teknologi dan lingkungan.</p>
+                                </div>
+                                <div>
+                                    <a href="detail1.html" class="btn btn-outline-primary rounded-pill px-4 py-2 d-inline-flex align-items-center gap-2">
+                                        Lihat Detail <i class="bi bi-arrow-right"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Card 2 -->
+                <div class="stacked-card-item" data-aos="fade-up" data-aos-duration="800">
+                    <div class="stacked-card rounded-4 p-3 p-md-4">
+                        <div class="row g-4 align-items-center">
+                            <div class="col-md-5">
+                                <div class="stacked-card-img-box">
+                                    <a href="detail2.html">
+                                        <img src="photo/juara 1 essay uns_page-0001.jpg" alt="Juara 1 Essay UNS" class="stacked-card-img">
+                                    </a>
+                                    <span class="achievement-badge badge-gold position-absolute top-0 start-0 m-3 px-3 py-2 rounded-pill fw-semibold">
+                                        <i class="bi bi-trophy-fill me-1"></i> Juara 1
+                                    </span>
+                                </div>
+                            </div>
+                            <div class="col-md-7 d-flex flex-column justify-content-between">
+                                <div>
+                                    <span class="text-secondary fw-semibold small text-uppercase tracking-wide">Tingkat Nasional • Essay</span>
+                                    <h4 class="fw-bold text-primary mt-2 mb-2">Juara 1 Essay Nasional</h4>
+                                    <p class="text-muted mb-3">Universitas Sebelas Maret (UNS) - Kompetisi essay nasional mengangkat ide inovasi solutif.</p>
+                                </div>
+                                <div>
+                                    <a href="detail2.html" class="btn btn-outline-primary rounded-pill px-4 py-2 d-inline-flex align-items-center gap-2">
+                                        Lihat Detail <i class="bi bi-arrow-right"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Card 3 -->
+                <div class="stacked-card-item" data-aos="fade-up" data-aos-duration="800">
+                    <div class="stacked-card rounded-4 p-3 p-md-4">
+                        <div class="row g-4 align-items-center">
+                            <div class="col-md-5">
+                                <div class="stacked-card-img-box">
+                                    <a href="detail3.html">
+                                        <img src="photo/JUARA 2 KTI UNY_page-0001.jpg" alt="Juara 2 KTI UNY" class="stacked-card-img">
+                                    </a>
+                                    <span class="achievement-badge badge-silver position-absolute top-0 start-0 m-3 px-3 py-2 rounded-pill fw-semibold">
+                                        <i class="bi bi-trophy-fill me-1"></i> Juara 2
+                                    </span>
+                                </div>
+                            </div>
+                            <div class="col-md-7 d-flex flex-column justify-content-between">
+                                <div>
+                                    <span class="text-secondary fw-semibold small text-uppercase tracking-wide">Tingkat Nasional • KTI</span>
+                                    <h4 class="fw-bold text-primary mt-2 mb-2">Juara 2 LKTI Nasional</h4>
+                                    <p class="text-muted mb-3">Universitas Negeri Yogyakarta (UNY) - Lomba Karya Tulis Ilmiah Tingkat Nasional.</p>
+                                </div>
+                                <div>
+                                    <a href="detail3.html" class="btn btn-outline-primary rounded-pill px-4 py-2 d-inline-flex align-items-center gap-2">
+                                        Lihat Detail <i class="bi bi-arrow-right"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Card 4 -->
+                <div class="stacked-card-item" data-aos="fade-up" data-aos-duration="800">
+                    <div class="stacked-card rounded-4 p-3 p-md-4">
+                        <div class="row g-4 align-items-center">
+                            <div class="col-md-5">
+                                <div class="stacked-card-img-box">
+                                    <a href="detail4.html">
+                                        <img src="photo/JUARA 2 KTI UNDIP_page-0001.jpg" alt="Juara 2 KTI UNDIP" class="stacked-card-img">
+                                    </a>
+                                    <span class="achievement-badge badge-silver position-absolute top-0 start-0 m-3 px-3 py-2 rounded-pill fw-semibold">
+                                        <i class="bi bi-trophy-fill me-1"></i> Juara 2
+                                    </span>
+                                </div>
+                            </div>
+                            <div class="col-md-7 d-flex flex-column justify-content-between">
+                                <div>
+                                    <span class="text-secondary fw-semibold small text-uppercase tracking-wide">Tingkat Nasional • KTI</span>
+                                    <h4 class="fw-bold text-primary mt-2 mb-2">Juara 2 LKTI Nasional</h4>
+                                    <p class="text-muted mb-3">Universitas Diponegoro (UNDIP) - Kompetisi karya ilmiah terapan skala nasional.</p>
+                                </div>
+                                <div>
+                                    <a href="detail4.html" class="btn btn-outline-primary rounded-pill px-4 py-2 d-inline-flex align-items-center gap-2">
+                                        Lihat Detail <i class="bi bi-arrow-right"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Card 5 -->
+                <div class="stacked-card-item" data-aos="fade-up" data-aos-duration="800">
+                    <div class="stacked-card rounded-4 p-3 p-md-4">
+                        <div class="row g-4 align-items-center">
+                            <div class="col-md-5">
+                                <div class="stacked-card-img-box">
+                                    <a href="detail5.html">
+                                        <img src="photo/Juara 2 lkti uii_page-0001.jpg" alt="Juara 2 LKTI UII" class="stacked-card-img">
+                                    </a>
+                                    <span class="achievement-badge badge-silver position-absolute top-0 start-0 m-3 px-3 py-2 rounded-pill fw-semibold">
+                                        <i class="bi bi-trophy-fill me-1"></i> Juara 2
+                                    </span>
+                                </div>
+                            </div>
+                            <div class="col-md-7 d-flex flex-column justify-content-between">
+                                <div>
+                                    <span class="text-secondary fw-semibold small text-uppercase tracking-wide">Tingkat Nasional • LKTI</span>
+                                    <h4 class="fw-bold text-primary mt-2 mb-2">Juara 2 LKTI Nasional</h4>
+                                    <p class="text-muted mb-3">Universitas Islam Indonesia (UII) - Penghargaan karya tulis ilmiah dan riset tingkat nasional.</p>
+                                </div>
+                                <div>
+                                    <a href="detail5.html" class="btn btn-outline-primary rounded-pill px-4 py-2 d-inline-flex align-items-center gap-2">
+                                        Lihat Detail <i class="bi bi-arrow-right"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+
+    <section id="contact" class="py-5 bg-white">
+        <div class="container py-5">
+            <div class="row justify-content-center">
+                <div class="col-md-8 text-center" data-aos="fade-up" data-aos-durration="800">
+                    <h2 class="fw-bold mb-3 text-secondary">Hubungi Saya
+                    </h2>
+                    <!-- mx-auto untuk agar text ketengah
+                         border-bottom untuk memberikan outline/garis 
+                         border-primary untuk warna outline
+                         border-3 untuk ketebalan outline
+                         w-25 untuk lebar outline
+                         mb-4 untuk jarak margin bawah-->
+                    <div class="border-bottom border-secondary border-3 mx-auto mb-4" style="width: 256px;"
+                        data-aos="fade-up" data-aos-durration="400"></div>
+                </div>
+            </div>
+            <div class="row justify-content-center">
+                <div class="col-md-6" data-aos="fade-up">
+                    <!-- border-0 untuk menghilangkan outline/garis 
+                         shadow-sm untuk memberikan shadow/bayangan kecil
+                         p-4 untuk memberikan padding kecil-->
+                    <div class="card border-0 shadow-md p-5 rounded-4 text-primary hubungi-saya">
+
+                        <form action="https://api.web3forms.com/submit" method="POST">
+                            <input type="hidden" name="access_key" value="a52c21f7-42c4-4524-999a-ff4cdf74052e">
+                            <div class="mb-3">
+                                <label for="exampleinputnama1" class="form-label">Nama Lengkap</label>
+                                <input type="text" class="form-control" id="exampleinputnama1" name="name" required>
+                            </div>
+                            <div class="mb-3">
+                                <label for="exampleInputEmail1" class="form-label">Alamat Email</label>
+                                <input type="email" class="form-control" id="exampleInputEmail1" name="email" required>
+                            </div>
+                            <div class="mb-3">
+                                <label for="exampleinputmessage1" class="form-label">Pesan</label>
+                                <textarea id="exampleinputmessage1" class="form-control mb-4" name="message" required
+                                    rows="4"></textarea>
+                                <!-- type nya button agar bentuknya button bukan link -->
+                                <button type="submit" class="btn btn-primary w-100 py-2 fw-bolder">Kirim</button>
+                        </form>
+
+
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+
+    </section>
+
+
+    <footer class="text-center" style="background-color: var(--primary-color);">
+        <div class="container pt-4">
+            <section>
+                <a data-mdb-ripple-init class="btn btn-link btn-floating btn-lg text-body m-1 text-tersiary"
+                    href="mailto:kheira.aisyadz@gmail.com" role="button" data-mdb-ripple-color="dark"><i
+                        class="bi bi-google"></i></a>
+                <a data-mdb-ripple-init class="btn btn-link btn-floating btn-lg text-body m-1 text-tersiary"
+                    href="https://www.instagram.com/kedziraa?igsh=MTdkczJiM29yZWI3cw==" role="button"
+                    data-mdb-ripple-color="dark"><i class="bi bi-instagram"></i></a>
+                <a data-mdb-ripple-init class="btn btn-link btn-floating btn-lg text-body m-1 text-tersiary"
+                    href="https://www.linkedin.com/in/kheira-aisya-dzikri/" role="button"
+                    data-mdb-ripple-color="dark"><i class="bi bi-linkedin"></i></a>
+                <a data-mdb-ripple-init class="btn btn-link btn-floating btn-lg text-body m-1 text-tersiary"
+                    href="https://github.com/kheiraaisya" role="button" data-mdb-ripple-color="dark"><i
+                        class="bi bi-github"></i></a>
+            </section>
+        </div>
+        <div class="text-center p-3" style="background-color:#021A54;">
+            <span class="text-tersiary">© 2026 Copyright : Kheira Aisya Dzikri</span>
+        </div>
+    </footer>
+
+
+
+
+
+
+
+
+
+<!-- 1. Script jQuery -->
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+<!-- 2. Script Notify Plugin -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/mouse0270-bootstrap-notify/3.1.3/bootstrap-notify.min.js"></script>
+
+<!-- template dari jquery notify -->
+<script>
+ $('#downloadBtn').on('click', function() {
+  $.notify({
+    icon: 'bi bi-file-earmark-arrow-down-fill',
+    message: 'Resume sedang diunduh...'
+  }, {
+    type: 'custom',
+    placement: {
+      from: 'top',
+      align: 'center'
+    },
+    delay: 3000,
+    onShow: function() {
+      if (typeof AOS !== 'undefined') {
+        AOS.refresh();
+      }
+    },
+    template: `
+      <div data-notify="container" data-aos="fade-down" data-aos-duration="400" class="custom-notify-toast d-flex align-items-center justify-content-center" role="alert">
+        <div class="notify-icon-badge me-2 d-flex align-items-center justify-content-center">
+          <span data-notify="icon"></span>
+        </div>
+        <span data-notify="message" class="notify-text fw-medium">{2}</span>
+      </div>
+    `
+  });
+});
+</script>
+
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    
+    <script>
+        AOS.init({
+            duration: 800,
+            easing: 'ease-in-out',
+            once: true
+        });
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
