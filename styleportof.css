@@ -310,7 +310,16 @@ p, .card-text, .card-text-tentang, .lead, label, input, textarea {
     margin-bottom: 128px;
 }
 
-@media (max-width: 600px) {
+.detail-sidebar-card {
+    position: sticky;
+    top: 6rem;
+}
+
+@media (max-width: 991.98px) {
+    .detail-sidebar-card {
+        position: static;
+    }
+
     .card__inner {
         flex-direction: column;
     }
