@@ -310,13 +310,30 @@ p, .card-text, .card-text-tentang, .lead, label, input, textarea {
     margin-bottom: 128px;
 }
 
-.detail-sidebar-card {
+.detail-sidebar-column {
+    align-self: flex-start !important;
+    height: fit-content;
     position: sticky;
     top: 6rem;
+    z-index: 10;
+}
+
+.detail-layout {
+    align-items: flex-start;
+}
+
+.detail-sidebar-card {
+    margin-bottom: 1rem;
+}
+
+.detail-sidebar-card:hover {
+    transform: none !important;
 }
 
 @media (max-width: 991.98px) {
-    .detail-sidebar-card {
+    .detail-sidebar-column {
+        align-self: auto !important;
+        height: auto;
         position: static;
     }
 
