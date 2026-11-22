@@ -15,7 +15,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
         rel="stylesheet">
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
-    <link rel="stylesheet" href="styleportof.css">
+    <link rel="stylesheet" href="styleportof.css?v=2">
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 
 
@@ -196,174 +196,250 @@ border-bottom untuk memberikan outline/garis dibagian bawah header  -->
         </div>
     </section>
 
-    <section id="achievement" class="text-primary py-5 bg-light position-relative">
+    <!-- PRESTASI SAYA (MONOCHROME REDESIGN) -->
+    <section id="achievement" class="py-5 achievement-section position-relative">
         <div class="container py-4">
+            <!-- Section Header -->
             <div class="row justify-content-center">
                 <div class="col-md-8 text-center mb-5">
-                    <h2 class="fw-bold mb-3" style="color: var(--tersier-color);" data-aos="fade-up"
-                        data-aos-duration="800">Prestasi Saya
+                    
+                    <h2 class="achievement-section-title fw-bold mt-2 mb-3" data-aos="fade-up" data-aos-duration="800">
+                        Prestasi Saya
                     </h2>
-                    <div class="border-bottom border-3 border-secondary mx-auto mb-4" style="width: 256px;"
-                        data-aos="fade-up" data-aos-duration="800" data-aos-delay="200"></div>
-                    <p class="lead text-primary fw-normal" data-aos="fade-up" data-aos-duration="800">
+                    <div class="border-bottom border-3 border-primary mx-auto mb-4" style="max-width: 80%; width: 220px;"
+                        data-aos="fade-up" data-aos-duration="800" data-aos-delay="150"></div>
+                    <p class="achievement-section-desc fw-normal" data-aos="fade-up" data-aos-duration="800" data-aos-delay="200">
                         Mahasiswa Informatika yang telah meraih berbagai prestasi tingkat nasional di bidang riset dan inovasi yang kini sedang mengembangkan kemampuan di bidang informatika
                     </p>
                 </div>
             </div>
 
-            <!-- Stacked Cards Container -->
-            <div class="stacked-cards-container">
+            <!-- Horizontal Achievement Cards List -->
+            <div class="achievement-cards-container">
                 
                 <!-- Card 1 -->
-                <div class="stacked-card-item" data-aos="fade-up" data-aos-duration="800">
-                    <div class="stacked-card rounded-4 p-3 p-md-4">
-                        <div class="row g-4 align-items-center">
-                            <div class="col-md-5">
-                                <div class="stacked-card-img-box">
-                                    <a href="detail1.html">
-                                        <img src="photo/JUARA 1 ESSAY UNAIR TEKNIK LINGKUNGAN_page-0001.jpg" alt="Juara 1 Essay UNAIR" class="stacked-card-img">
-                                    </a>
-                                    <span class="achievement-badge badge-gold position-absolute top-0 start-0 m-3 px-3 py-2 rounded-pill fw-semibold">
-                                        <i class="bi bi-trophy-fill me-1"></i> Juara 1
-                                    </span>
+                <article class="achievement-card" data-aos="fade-up" data-aos-duration="750">
+                    <div class="achievement-card-inner">
+                        <div class="achievement-media-col">
+                            <a href="detail1.html" class="achievement-media-frame" aria-label="Lihat sertifikat Juara 1 Essay UNAIR">
+                                <img src="photo/JUARA 1 ESSAY UNAIR TEKNIK LINGKUNGAN_page-0001.jpg" 
+                                     alt="Sertifikat Juara 1 Essay Teknik Lingkungan UNAIR" 
+                                     class="achievement-cert-img" 
+                                     loading="lazy">
+                                <div class="achievement-media-overlay">
+                                    <span class="achievement-overlay-badge"><i class="bi bi-zoom-in"></i> Preview</span>
                                 </div>
+                            </a>
+                        </div>
+                        <div class="achievement-body-col">
+                            <div class="achievement-meta-row">
+                                <span class="achievement-rank-pill rank-1">
+                                    <i class="bi bi-trophy-fill"></i> Juara 1
+                                </span>
+                                <span class="achievement-level-pill">
+                                    <i class="bi bi-flag-fill"></i> Tingkat Nasional • Essay
+                                </span>
                             </div>
-                            <div class="col-md-7 d-flex flex-column justify-content-between">
-                                <div>
-                                    <span class="text-secondary fw-semibold small text-uppercase tracking-wide">Tingkat Nasional • Essay</span>
-                                    <h4 class="fw-bold text-primary mt-2 mb-2">Juara 1 Essay Teknik Lingkungan</h4>
-                                    <p class="text-muted mb-3">Universitas Airlangga (UNAIR) - Kompetisi karya tulis ilmiah & essay nasional di bidang teknologi dan lingkungan.</p>
-                                </div>
-                                <div>
-                                    <a href="detail1.html" class="btn btn-outline-primary rounded-pill px-4 py-2 d-inline-flex align-items-center gap-2">
-                                        Lihat Detail <i class="bi bi-arrow-right"></i>
-                                    </a>
-                                </div>
+                            <h3 class="achievement-card-title">
+                                <a href="detail1.html">Juara 1 Essay Teknik Lingkungan</a>
+                            </h3>
+                            <div class="achievement-organizer">
+                                <i class="bi bi-building"></i>
+                                <span>Universitas Airlangga (UNAIR)</span>
+                            </div>
+                            <p class="achievement-desc">
+                                Universitas Airlangga (UNAIR) - Kompetisi karya tulis ilmiah & essay nasional di bidang teknologi dan lingkungan.
+                            </p>
+                            <div class="achievement-action-row">
+                                <a href="detail1.html" class="achievement-btn-detail">
+                                    <span>Lihat Detail</span>
+                                    <i class="bi bi-arrow-right"></i>
+                                </a>
                             </div>
                         </div>
                     </div>
-                </div>
+                </article>
 
                 <!-- Card 2 -->
-                <div class="stacked-card-item" data-aos="fade-up" data-aos-duration="800">
-                    <div class="stacked-card rounded-4 p-3 p-md-4">
-                        <div class="row g-4 align-items-center">
-                            <div class="col-md-5">
-                                <div class="stacked-card-img-box">
-                                    <a href="detail2.html">
-                                        <img src="photo/juara 1 essay uns_page-0001.jpg" alt="Juara 1 Essay UNS" class="stacked-card-img">
-                                    </a>
-                                    <span class="achievement-badge badge-gold position-absolute top-0 start-0 m-3 px-3 py-2 rounded-pill fw-semibold">
-                                        <i class="bi bi-trophy-fill me-1"></i> Juara 1
-                                    </span>
+                <article class="achievement-card" data-aos="fade-up" data-aos-duration="750">
+                    <div class="achievement-card-inner">
+                        <div class="achievement-media-col">
+                            <a href="detail2.html" class="achievement-media-frame" aria-label="Lihat sertifikat Juara 1 Essay UNS">
+                                <img src="photo/juara 1 essay uns_page-0001.jpg" 
+                                     alt="Sertifikat Juara 1 Essay Nasional UNS" 
+                                     class="achievement-cert-img" 
+                                     loading="lazy">
+                                <div class="achievement-media-overlay">
+                                    <span class="achievement-overlay-badge"><i class="bi bi-zoom-in"></i> Preview</span>
                                 </div>
+                            </a>
+                        </div>
+                        <div class="achievement-body-col">
+                            <div class="achievement-meta-row">
+                                <span class="achievement-rank-pill rank-1">
+                                    <i class="bi bi-trophy-fill"></i> Juara 1
+                                </span>
+                                <span class="achievement-level-pill">
+                                    <i class="bi bi-flag-fill"></i> Tingkat Nasional • Essay
+                                </span>
                             </div>
-                            <div class="col-md-7 d-flex flex-column justify-content-between">
-                                <div>
-                                    <span class="text-secondary fw-semibold small text-uppercase tracking-wide">Tingkat Nasional • Essay</span>
-                                    <h4 class="fw-bold text-primary mt-2 mb-2">Juara 1 Essay Nasional</h4>
-                                    <p class="text-muted mb-3">Universitas Sebelas Maret (UNS) - Kompetisi essay nasional mengangkat ide inovasi solutif.</p>
-                                </div>
-                                <div>
-                                    <a href="detail2.html" class="btn btn-outline-primary rounded-pill px-4 py-2 d-inline-flex align-items-center gap-2">
-                                        Lihat Detail <i class="bi bi-arrow-right"></i>
-                                    </a>
-                                </div>
+                            <h3 class="achievement-card-title">
+                                <a href="detail2.html">Juara 1 Essay Nasional</a>
+                            </h3>
+                            <div class="achievement-organizer">
+                                <i class="bi bi-building"></i>
+                                <span>Universitas Sebelas Maret (UNS)</span>
+                            </div>
+                            <p class="achievement-desc">
+                                Universitas Sebelas Maret (UNS) - Kompetisi essay nasional mengangkat ide inovasi solutif.
+                            </p>
+                            <div class="achievement-action-row">
+                                <a href="detail2.html" class="achievement-btn-detail">
+                                    <span>Lihat Detail</span>
+                                    <i class="bi bi-arrow-right"></i>
+                                </a>
                             </div>
                         </div>
                     </div>
-                </div>
+                </article>
 
                 <!-- Card 3 -->
-                <div class="stacked-card-item" data-aos="fade-up" data-aos-duration="800">
-                    <div class="stacked-card rounded-4 p-3 p-md-4">
-                        <div class="row g-4 align-items-center">
-                            <div class="col-md-5">
-                                <div class="stacked-card-img-box">
-                                    <a href="detail3.html">
-                                        <img src="photo/JUARA 2 KTI UNY_page-0001.jpg" alt="Juara 2 KTI UNY" class="stacked-card-img">
-                                    </a>
-                                    <span class="achievement-badge badge-silver position-absolute top-0 start-0 m-3 px-3 py-2 rounded-pill fw-semibold">
-                                        <i class="bi bi-trophy-fill me-1"></i> Juara 2
-                                    </span>
+                <article class="achievement-card" data-aos="fade-up" data-aos-duration="750">
+                    <div class="achievement-card-inner">
+                        <div class="achievement-media-col">
+                            <a href="detail3.html" class="achievement-media-frame" aria-label="Lihat sertifikat Juara 2 LKTI UNY">
+                                <img src="photo/JUARA 2 KTI UNY_page-0001.jpg" 
+                                     alt="Sertifikat Juara 2 LKTI UNY" 
+                                     class="achievement-cert-img" 
+                                     loading="lazy">
+                                <div class="achievement-media-overlay">
+                                    <span class="achievement-overlay-badge"><i class="bi bi-zoom-in"></i> Preview</span>
                                 </div>
+                            </a>
+                        </div>
+                        <div class="achievement-body-col">
+                            <div class="achievement-meta-row">
+                                <span class="achievement-rank-pill rank-2">
+                                    <i class="bi bi-trophy-fill"></i> Juara 2
+                                </span>
+                                <span class="achievement-level-pill">
+                                    <i class="bi bi-flag-fill"></i> Tingkat Nasional • KTI
+                                </span>
                             </div>
-                            <div class="col-md-7 d-flex flex-column justify-content-between">
-                                <div>
-                                    <span class="text-secondary fw-semibold small text-uppercase tracking-wide">Tingkat Nasional • KTI</span>
-                                    <h4 class="fw-bold text-primary mt-2 mb-2">Juara 2 LKTI Nasional</h4>
-                                    <p class="text-muted mb-3">Universitas Negeri Yogyakarta (UNY) - Lomba Karya Tulis Ilmiah Tingkat Nasional.</p>
-                                </div>
-                                <div>
-                                    <a href="detail3.html" class="btn btn-outline-primary rounded-pill px-4 py-2 d-inline-flex align-items-center gap-2">
-                                        Lihat Detail <i class="bi bi-arrow-right"></i>
-                                    </a>
-                                </div>
+                            <h3 class="achievement-card-title">
+                                <a href="detail3.html">Juara 2 LKTI Nasional</a>
+                            </h3>
+                            <div class="achievement-organizer">
+                                <i class="bi bi-building"></i>
+                                <span>Universitas Negeri Yogyakarta (UNY)</span>
+                            </div>
+                            <p class="achievement-desc">
+                                Universitas Negeri Yogyakarta (UNY) - Lomba Karya Tulis Ilmiah Tingkat Nasional.
+                            </p>
+                            <div class="achievement-action-row">
+                                <a href="detail3.html" class="achievement-btn-detail">
+                                    <span>Lihat Detail</span>
+                                    <i class="bi bi-arrow-right"></i>
+                                </a>
                             </div>
                         </div>
                     </div>
-                </div>
+                </article>
 
-                <!-- Card 4 -->
-                <div class="stacked-card-item" data-aos="fade-up" data-aos-duration="800">
-                    <div class="stacked-card rounded-4 p-3 p-md-4">
-                        <div class="row g-4 align-items-center">
-                            <div class="col-md-5">
-                                <div class="stacked-card-img-box">
-                                    <a href="detail4.html">
-                                        <img src="photo/JUARA 2 KTI UNDIP_page-0001.jpg" alt="Juara 2 KTI UNDIP" class="stacked-card-img">
-                                    </a>
-                                    <span class="achievement-badge badge-silver position-absolute top-0 start-0 m-3 px-3 py-2 rounded-pill fw-semibold">
-                                        <i class="bi bi-trophy-fill me-1"></i> Juara 2
-                                    </span>
+                <!-- Card 4 (Initially hidden by Show More) -->
+                <article class="achievement-card achievement-card-extra" data-aos="fade-up" data-aos-duration="750">
+                    <div class="achievement-card-inner">
+                        <div class="achievement-media-col">
+                            <a href="detail4.html" class="achievement-media-frame" aria-label="Lihat sertifikat Juara 2 LKTI UNDIP">
+                                <img src="photo/JUARA 2 KTI UNDIP_page-0001.jpg" 
+                                     alt="Sertifikat Juara 2 LKTI UNDIP" 
+                                     class="achievement-cert-img" 
+                                     loading="lazy">
+                                <div class="achievement-media-overlay">
+                                    <span class="achievement-overlay-badge"><i class="bi bi-zoom-in"></i> Preview</span>
                                 </div>
+                            </a>
+                        </div>
+                        <div class="achievement-body-col">
+                            <div class="achievement-meta-row">
+                                <span class="achievement-rank-pill rank-2">
+                                    <i class="bi bi-trophy-fill"></i> Juara 2
+                                </span>
+                                <span class="achievement-level-pill">
+                                    <i class="bi bi-flag-fill"></i> Tingkat Nasional • KTI
+                                </span>
                             </div>
-                            <div class="col-md-7 d-flex flex-column justify-content-between">
-                                <div>
-                                    <span class="text-secondary fw-semibold small text-uppercase tracking-wide">Tingkat Nasional • KTI</span>
-                                    <h4 class="fw-bold text-primary mt-2 mb-2">Juara 2 LKTI Nasional</h4>
-                                    <p class="text-muted mb-3">Universitas Diponegoro (UNDIP) - Kompetisi karya ilmiah terapan skala nasional.</p>
-                                </div>
-                                <div>
-                                    <a href="detail4.html" class="btn btn-outline-primary rounded-pill px-4 py-2 d-inline-flex align-items-center gap-2">
-                                        Lihat Detail <i class="bi bi-arrow-right"></i>
-                                    </a>
-                                </div>
+                            <h3 class="achievement-card-title">
+                                <a href="detail4.html">Juara 2 LKTI Nasional</a>
+                            </h3>
+                            <div class="achievement-organizer">
+                                <i class="bi bi-building"></i>
+                                <span>Universitas Diponegoro (UNDIP)</span>
+                            </div>
+                            <p class="achievement-desc">
+                                Universitas Diponegoro (UNDIP) - Kompetisi karya ilmiah terapan skala nasional.
+                            </p>
+                            <div class="achievement-action-row">
+                                <a href="detail4.html" class="achievement-btn-detail">
+                                    <span>Lihat Detail</span>
+                                    <i class="bi bi-arrow-right"></i>
+                                </a>
                             </div>
                         </div>
                     </div>
-                </div>
+                </article>
 
-                <!-- Card 5 -->
-                <div class="stacked-card-item" data-aos="fade-up" data-aos-duration="800">
-                    <div class="stacked-card rounded-4 p-3 p-md-4">
-                        <div class="row g-4 align-items-center">
-                            <div class="col-md-5">
-                                <div class="stacked-card-img-box">
-                                    <a href="detail5.html">
-                                        <img src="photo/Juara 2 lkti uii_page-0001.jpg" alt="Juara 2 LKTI UII" class="stacked-card-img">
-                                    </a>
-                                    <span class="achievement-badge badge-silver position-absolute top-0 start-0 m-3 px-3 py-2 rounded-pill fw-semibold">
-                                        <i class="bi bi-trophy-fill me-1"></i> Juara 2
-                                    </span>
+                <!-- Card 5 (Initially hidden by Show More) -->
+                <article class="achievement-card achievement-card-extra" data-aos="fade-up" data-aos-duration="750">
+                    <div class="achievement-card-inner">
+                        <div class="achievement-media-col">
+                            <a href="detail5.html" class="achievement-media-frame" aria-label="Lihat sertifikat Juara 2 LKTI UII">
+                                <img src="photo/Juara 2 lkti uii_page-0001.jpg" 
+                                     alt="Sertifikat Juara 2 LKTI UII" 
+                                     class="achievement-cert-img" 
+                                     loading="lazy">
+                                <div class="achievement-media-overlay">
+                                    <span class="achievement-overlay-badge"><i class="bi bi-zoom-in"></i> Preview</span>
                                 </div>
+                            </a>
+                        </div>
+                        <div class="achievement-body-col">
+                            <div class="achievement-meta-row">
+                                <span class="achievement-rank-pill rank-2">
+                                    <i class="bi bi-trophy-fill"></i> Juara 2
+                                </span>
+                                <span class="achievement-level-pill">
+                                    <i class="bi bi-flag-fill"></i> Tingkat Nasional • LKTI
+                                </span>
                             </div>
-                            <div class="col-md-7 d-flex flex-column justify-content-between">
-                                <div>
-                                    <span class="text-secondary fw-semibold small text-uppercase tracking-wide">Tingkat Nasional • LKTI</span>
-                                    <h4 class="fw-bold text-primary mt-2 mb-2">Juara 2 LKTI Nasional</h4>
-                                    <p class="text-muted mb-3">Universitas Islam Indonesia (UII) - Penghargaan karya tulis ilmiah dan riset tingkat nasional.</p>
-                                </div>
-                                <div>
-                                    <a href="detail5.html" class="btn btn-outline-primary rounded-pill px-4 py-2 d-inline-flex align-items-center gap-2">
-                                        Lihat Detail <i class="bi bi-arrow-right"></i>
-                                    </a>
-                                </div>
+                            <h3 class="achievement-card-title">
+                                <a href="detail5.html">Juara 2 LKTI Nasional</a>
+                            </h3>
+                            <div class="achievement-organizer">
+                                <i class="bi bi-building"></i>
+                                <span>Universitas Islam Indonesia (UII)</span>
+                            </div>
+                            <p class="achievement-desc">
+                                Universitas Islam Indonesia (UII) - Penghargaan karya tulis ilmiah dan riset tingkat nasional.
+                            </p>
+                            <div class="achievement-action-row">
+                                <a href="detail5.html" class="achievement-btn-detail">
+                                    <span>Lihat Detail</span>
+                                    <i class="bi bi-arrow-right"></i>
+                                </a>
                             </div>
                         </div>
                     </div>
-                </div>
+                </article>
 
+            </div>
+
+            <!-- Show More / Show Less Toggle Button -->
+            <div class="achievement-toggle-container text-center mt-5" data-aos="fade-up" data-aos-duration="600">
+                <button type="button" id="achievementToggleBtn" class="achievement-toggle-btn" aria-expanded="false">
+                    <span class="btn-text">Show More</span>
+                    <i class="bi bi-chevron-down btn-icon"></i>
+                </button>
             </div>
         </div>
     </section>
@@ -495,6 +571,57 @@ border-bottom untuk memberikan outline/garis dibagian bawah header  -->
             duration: 800,
             easing: 'ease-in-out',
             once: true
+        });
+
+        // Show More / Show Less Prestasi Toggle
+        document.addEventListener('DOMContentLoaded', function() {
+            const toggleBtn = document.getElementById('achievementToggleBtn');
+            const extraCards = document.querySelectorAll('.achievement-card-extra');
+
+            if (toggleBtn && extraCards.length > 0) {
+                toggleBtn.addEventListener('click', function() {
+                    const isExpanded = this.getAttribute('aria-expanded') === 'true';
+                    const btnText = this.querySelector('.btn-text');
+                    const btnIcon = this.querySelector('.btn-icon');
+
+                    if (!isExpanded) {
+                        // Tampilkan kartu tambahan
+                        extraCards.forEach(function(card, idx) {
+                            card.classList.add('is-visible');
+                            card.style.animationDelay = (idx * 80) + 'ms';
+                        });
+                        this.setAttribute('aria-expanded', 'true');
+                        if (btnText) btnText.textContent = 'Show Less';
+                        if (btnIcon) {
+                            btnIcon.classList.remove('bi-chevron-down');
+                            btnIcon.classList.add('bi-chevron-up');
+                        }
+                        if (typeof AOS !== 'undefined') {
+                            setTimeout(function() { AOS.refresh(); }, 100);
+                        }
+                    } else {
+                        // Sembunyikan kembali
+                        extraCards.forEach(function(card) {
+                            card.classList.remove('is-visible');
+                            card.style.animationDelay = '0ms';
+                        });
+                        this.setAttribute('aria-expanded', 'false');
+                        if (btnText) btnText.textContent = 'Show More';
+                        if (btnIcon) {
+                            btnIcon.classList.remove('bi-chevron-up');
+                            btnIcon.classList.add('bi-chevron-down');
+                        }
+
+                        // Scroll halus kembali ke bagian atas Prestasi dengan offset navbar
+                        const achievementSec = document.getElementById('achievement');
+                        if (achievementSec) {
+                            const navHeight = document.querySelector('.navbar') ? document.querySelector('.navbar').offsetHeight : 70;
+                            const targetY = achievementSec.getBoundingClientRect().top + window.pageYOffset - navHeight - 10;
+                            window.scrollTo({ top: targetY, behavior: 'smooth' });
+                        }
+                    }
+                });
+            }
         });
     </script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"></script>
